@@ -9,15 +9,45 @@
     "base": "https://recruiting-prospects-pizza-repeated.trycloudflare.com",
     "network": "base",
     "endpoints": [
-      {"method": "GET", "path": "/v1/ping", "priceUsd": "0.001"},
-      {"method": "POST", "path": "/v1/text-stats", "priceUsd": "0.005"},
-      {"method": "POST", "path": "/v1/json-normalize", "priceUsd": "0.01"}
+      {
+        "method": "POST",
+        "path": "/v1/url-health",
+        "priceUsd": "0.01"
+      },
+      {
+        "method": "GET",
+        "path": "/v1/ping",
+        "priceUsd": "0.001"
+      },
+      {
+        "method": "POST",
+        "path": "/v1/text-stats",
+        "priceUsd": "0.005"
+      },
+      {
+        "method": "POST",
+        "path": "/v1/json-normalize",
+        "priceUsd": "0.01"
+      }
     ]
   },
   "skus": [
-    {"id": "free-starter", "priceUsd": 0},
-    {"id": "starter-kit", "priceUsd": 9},
-    {"id": "full-playbook", "priceUsd": 49},
-    {"id": "ops-pack", "priceUsd": 149}
-  ]
+    {
+      "id": "free-starter",
+      "priceUsd": 0
+    },
+    {
+      "id": "starter-kit",
+      "priceUsd": 9
+    },
+    {
+      "id": "full-playbook",
+      "priceUsd": 49
+    },
+    {
+      "id": "ops-pack",
+      "priceUsd": 149
+    }
+  ],
+  "asOfUtc": "2026-08-09T20:28:03Z"
 }
