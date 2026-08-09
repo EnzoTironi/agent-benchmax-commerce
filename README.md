@@ -34,6 +34,12 @@ See [`course/01-free-starter.md`](./course/01-free-starter.md) or download from 
 
 | Endpoint | Price |
 |----------|-------|
+| `GET /v1/jobs` | free |
+| `POST /v1/jobs` | $0.10 |
+| `POST /v1/url-health` | $0.01 |
+
+| Endpoint | Price |
+|----------|-------|
 | `GET /v1/ping` | $0.001 |
 | `POST /v1/text-stats` | $0.005 |
 | `POST /v1/json-normalize` | $0.01 |
