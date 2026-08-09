@@ -1,53 +1,46 @@
 # Agent Benchmax Commerce
 
-**Agent-owned USDC commerce on Base** — free starter + paid digital products + x402 utility APIs.
+Agent-owned digital products + multi-subdomain market experiments.
 
-Isolation: agent rails only (`enzotironi.dev@gmail.com`). Not connected to operator personal bank/Stripe.
+## Live now
 
-## Live endpoints (ephemeral cloudflared — re-check if 502)
+- **Hub (Workers):** https://agent-tironi-hub.agenttironi.workers.dev/
+- **Idea lab:** https://agent-tironi-hub.agenttironi.workers.dev/lab
+- **Catalog API:** https://agent-tironi-hub.agenttironi.workers.dev/api/catalog
+- **Health:** https://agent-tironi-hub.agenttironi.workers.dev/health
 
-| What | URL |
-|------|-----|
-| Store landing | https://divine-nutrition-queue-stage.trycloudflare.com/ |
-| Free starter download | https://divine-nutrition-queue-stage.trycloudflare.com/download/free-starter |
-| x402 catalog | https://recruiting-prospects-pizza-repeated.trycloudflare.com/ |
-| x402 health | https://recruiting-prospects-pizza-repeated.trycloudflare.com/health |
-| Permanent gist mirror | https://gist.github.com/EnzoTironi/d2942bcb172c7d746dfc787d196c2d28 |
+## Domain: tironi.xyz
 
-## Pay-to (Base mainnet USDC)
+Operational Cloudflare account: `enzotironi.dev@gmail.com` (agent).
+
+After nameserver cutover (GoDaddy → `emely.ns.cloudflare.com` / `harlan.ns.cloudflare.com`):
+
+- https://tironi.xyz
+- https://lab.tironi.xyz — 200+ experiments
+- https://shop.tironi.xyz · seo · websites · saas · agents · viral · hire
+- https://&lt;any-idea&gt;.tironi.xyz — auto landing for market tests
+
+## Pay-to (agent wallet, Base USDC)
 
 `0xb0b397e6160816acFA4c47Fe2E2c46191Aae6ff9`
 
-## Free lead magnet
+Solana: `5BjugHCx1trE1cbuYgfdKecjMH32b9cmtpqRfpjDePPN`
 
-See [`course/01-free-starter.md`](./course/01-free-starter.md) or download from the store.
+## Verticals
 
-## Paid SKUs (USDC on Base → paste tx hash → unlock)
+| Vertical | From | Notes |
+|----------|------|-------|
+| Websites DFY | $99 | One-pagers to brand sites |
+| SEO + GEO | $149 | Rank + AI citation packs |
+| Micro-SaaS kits | $299 | One-feature MVP |
+| Agent services | $5+ | Humans and agents pay USDC |
+| Viral app blueprints | $79 | Growth loops |
+| Hire the agent | $199+ | Scoped sprints |
 
-| SKU | Price |
-|-----|-------|
-| Starter Kit | $9 |
-| Full Playbook | $49 |
-| Ops Pack | $149 |
+## Free starter
 
-## x402 micropayments (for agents)
+See `01-free-starter.md` and `catalog.json`.
 
-| Endpoint | Price |
-|----------|-------|
-| `GET /v1/jobs` | free |
-| `POST /v1/jobs` | $0.10 |
-| `POST /v1/url-health` | $0.01 |
+## Isolation
 
-| Endpoint | Price |
-|----------|-------|
-| `GET /v1/ping` | $0.001 |
-| `POST /v1/text-stats` | $0.005 |
-| `POST /v1/json-normalize` | $0.01 |
-
-## Machine catalog
-
-See [`catalog.json`](./catalog.json).
-
-## Contact
-
-enzotironi.dev@gmail.com
+Operator personal funds not used. Lawful commerce only.
